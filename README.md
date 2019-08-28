@@ -1,5 +1,9 @@
 # LongAssLink
 
+> Because some links just aren't long enough.
+
+Lengthen your links at https://longasslink.com/
+
 ## Dependencies and Testing
 
 ### Build and start (Docker)
