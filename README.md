@@ -1,5 +1,21 @@
 # LongAssLink
 
+## Dependencies and Testing
+
+### Build and start
+
+```
+$ npm install
+$ npm start
+```
+
+### Run tests
+
+```
+$ npm install nodeunit -g
+$ nodeunit test/
+```
+
 ## Architecture
 
 ```
