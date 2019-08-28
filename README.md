@@ -2,6 +2,12 @@
 
 ## Dependencies and Testing
 
+### Build and start (Docker)
+
+```
+$ docker-compose up --build
+```
+
 ### Build and start
 
 ```
@@ -12,6 +18,7 @@ $ npm start
 ### Run tests
 
 ```
+$ npm install
 $ npm install nodeunit -g
 $ nodeunit test/
 ```
