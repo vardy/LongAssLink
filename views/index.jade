@@ -1,6 +1,9 @@
 extends layout
 
 block content
-    h1= title
-    p Welcome to #{title}
-    p You shouldn't be able to get to this page :thinking:, how odd.
+    .block
+        .columns.is-mobile.is-centered
+            .column.is-half.has-text-centered
+                h1.title.is-1= spacer
+                p Welcome to LongAssLink.
+                p You shouldn't be able to get to this page :thinking:, how odd.
