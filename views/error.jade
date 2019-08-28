@@ -1,5 +1,9 @@
 extends layout
 
 block content
-    h1= message
-    h2= error.status
+    .block
+        .columns.is-mobile.is-centered
+            .column.is-half.has-text-centered
+                h1.title.is-1= spacer
+                h4.title.is-4= message
+                h5.title.is-5= error.status

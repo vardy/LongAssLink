@@ -5,4 +5,11 @@ html
         link(rel='stylesheet', href='/css/bulma.min.css')
         link(rel='stylesheet', href='/css/style.css')
     body
-        block content
+        .container
+            .block
+                .columns.is-mobile.is-centered
+                    .column.is-half.has-text-centered
+                        h1.title.is-1= spacer
+                        h1.title.is-1 LongAssLink
+                        code.is-primary Link Lengthener
+            block content
