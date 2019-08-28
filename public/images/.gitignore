@@ -1,0 +1,4 @@
+# Preserving file structure, no image files are to be
+# added to VCS.
+*
+!.gitignore
