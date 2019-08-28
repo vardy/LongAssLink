@@ -1,0 +1,8 @@
+version: '2.0'
+
+services:
+  longasslink:
+    build: .
+    restart: always
+    ports:
+     - "3500:3500"
