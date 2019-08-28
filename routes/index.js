@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const Validator = require('../lib/validate');
+const validate = require('../lib/validate'); // Returns validator class
+const validator = new validate(); // Instantiating validator
 
 /* GET URL. */
 router.get('/:url', function(req, res, next) {
-
+    let url = req.params.url;
 });
 
 /* POST new URL. */
