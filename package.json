@@ -27,7 +27,7 @@
   "homepage": "https://github.com/vardy/LongAssLink#readme",
   "dependencies": {
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-errors": "^1.7.3",
     "jade": "^1.11.0"
   }
